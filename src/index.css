@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
@@ -32,6 +33,11 @@ h2 {
 
 h1 {
   font-size: 10vh !important;
+}
+
+p {
+  width: 50vw !important;
+  text-align: left;
 }
 
 section {

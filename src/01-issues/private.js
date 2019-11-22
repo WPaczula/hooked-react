@@ -1,13 +1,5 @@
 import React from 'react'
 
-const PrivateMethod = () => {
-    const imOnlyInComponentsScopeBruh = () => console.log('🐱‍👤') 
-
-    return (
-        <button onClick={imOnlyInComponentsScopeBruh}>Cant touch my bebech</button>
-    )
-}
-
 class NonPrivateMethod extends React.Component {
     imStillPublic = () => console.log('😥')
 
@@ -18,4 +10,4 @@ class NonPrivateMethod extends React.Component {
     }
 }
 
-export { PrivateMethod, NonPrivateMethod }
+export default NonPrivateMethod

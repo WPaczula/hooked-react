@@ -1,14 +1,8 @@
+/* eslint-disable react/jsx-no-undef */
+/* eslint-disable jsx-a11y/accessible-emoji */
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 import React from 'react'
-
-const TitleProvider = () => {}
-const FormInitializer = () => {}
-const OverlapWarningFactory = () => {}
-
-const useOriginPricingModalTitle = () => {}
-const useFormInitializer = () => {}
-const useOverlapWarningFactory = () => {}
-
-const OriginPricingModal = () => {}
 
 const WrapperHell = () => {
     return (
@@ -38,21 +32,6 @@ const WrapperHell = () => {
             }
         </TitleProvider>
     )
-}
-
-export const NoWrapperHell = (props) => {
-    const title = useOriginPricingModalTitle(props)
-    const [initialValues, submit] = useFormInitializer(props)
-    const [LeftOverlapWarning, RightOverlapWarning] = useOverlapWarningFactory(props)
-
-    return (<OriginPricingModal 
-        title={title}
-        initialValues={initialValues}
-        submit={submit}
-        LeftAdditionalContent={LeftOverlapWarning}
-        RightAdditionalContent={RightOverlapWarning}
-    />)
-
 }
 
 export default WrapperHell

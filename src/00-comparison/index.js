@@ -11,6 +11,14 @@ const Intro = () => {
     return (
         <>
             <section>
+                <h2>Czym są hooki? 🤔</h2>
+                <section>
+                    <p>👉 Mechanizm, ktry pozwala na wprowadzenie stanu oraz jego synchronizacji w komponentach funkcyjnych</p>
+                    <p>👉 100% kompatybilności wstecznej</p>
+                    <p>👉 Zawiera jeden ważny feature, na który wcześniej trzeba było wykonywać obejścia</p>
+                </section>
+            </section>
+            <section>
                 <h1>Porównanko</h1>
             </section>
             <section>
