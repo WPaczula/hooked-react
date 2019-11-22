@@ -2,8 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import logo from './logo.svg';
-import Why from './00-why'
-import Comparison from './01-comparison'
+import Comparison from './00-comparison'
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
       </header>
       <main className="App-main">
         <Comparison />
-        <Why />
       </main>
     </div>
   );
