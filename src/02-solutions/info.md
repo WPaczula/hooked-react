@@ -2,9 +2,10 @@
 
 👉 reużywanie logiki ze stanem w wielu komponentach
 
-1. Hooki pozwalają wydzielać logikę ze stanem bez potrzeby zmiany hierarchii komponentów
-2. "You can npm install an even greater percentage of your application code than before"
-3. Reużywalność++ 
+1. Custom Hooki pozwalają wydzielać logikę ze stanem bez potrzeby zmiany hierarchii komponentów.
+2. "You can npm install an even greater percentage of your application code than before".
+3. Reużywalność++.
+4. Brak wymaganego boilerplate'u.
 
 https://github.com/rehooks/awesome-react-hooks
 
